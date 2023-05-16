@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D80ECB6C1BDEAA420055EF0A /* Zxcvbn.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D80ECB731BDEAA420055EF0A /* Zxcvbn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */; };
+		D80ECB731BDEAA420055EF0A /* zxcvbn_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D80ECB681BDEAA420055EF0A /* zxcvbn_ios.framework */; };
 		D80ECB781BDEAA420055EF0A /* ZxcvbnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB771BDEAA420055EF0A /* ZxcvbnTests.m */; };
 		D80ECB8B1BDEAA7D0055EF0A /* DBMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D80ECB821BDEAA7D0055EF0A /* DBMatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D80ECB8C1BDEAA7D0055EF0A /* DBMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = D80ECB831BDEAA7D0055EF0A /* DBMatcher.m */; };
@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Zxcvbn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80ECB681BDEAA420055EF0A /* zxcvbn_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = zxcvbn_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80ECB6B1BDEAA420055EF0A /* Zxcvbn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Zxcvbn.h; sourceTree = "<group>"; };
 		D80ECB6D1BDEAA420055EF0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D80ECB721BDEAA420055EF0A /* ZxcvbnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZxcvbnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80ECB731BDEAA420055EF0A /* Zxcvbn.framework in Frameworks */,
+				D80ECB731BDEAA420055EF0A /* zxcvbn_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 		D80ECB691BDEAA420055EF0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */,
+				D80ECB681BDEAA420055EF0A /* zxcvbn_ios.framework */,
 				D80ECB721BDEAA420055EF0A /* ZxcvbnTests.xctest */,
 			);
 			name = Products;
@@ -146,9 +146,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D80ECB671BDEAA420055EF0A /* Zxcvbn */ = {
+		D80ECB671BDEAA420055EF0A /* zxcvbn_ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D80ECB7C1BDEAA420055EF0A /* Build configuration list for PBXNativeTarget "Zxcvbn" */;
+			buildConfigurationList = D80ECB7C1BDEAA420055EF0A /* Build configuration list for PBXNativeTarget "zxcvbn_ios" */;
 			buildPhases = (
 				D80ECB631BDEAA420055EF0A /* Sources */,
 				D80ECB641BDEAA420055EF0A /* Frameworks */,
@@ -159,9 +159,9 @@
 			);
 			dependencies = (
 			);
-			name = Zxcvbn;
+			name = zxcvbn_ios;
 			productName = Zxcvbn;
-			productReference = D80ECB681BDEAA420055EF0A /* Zxcvbn.framework */;
+			productReference = D80ECB681BDEAA420055EF0A /* zxcvbn_ios.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D80ECB711BDEAA420055EF0A /* ZxcvbnTests */ = {
@@ -204,6 +204,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = D80ECB5E1BDEAA420055EF0A;
@@ -211,7 +212,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D80ECB671BDEAA420055EF0A /* Zxcvbn */,
+				D80ECB671BDEAA420055EF0A /* zxcvbn_ios */,
 				D80ECB711BDEAA420055EF0A /* ZxcvbnTests */,
 			);
 		};
@@ -265,7 +266,7 @@
 /* Begin PBXTargetDependency section */
 		D80ECB751BDEAA420055EF0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D80ECB671BDEAA420055EF0A /* Zxcvbn */;
+			target = D80ECB671BDEAA420055EF0A /* zxcvbn_ios */;
 			targetProxy = D80ECB741BDEAA420055EF0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D80ECB7C1BDEAA420055EF0A /* Build configuration list for PBXNativeTarget "Zxcvbn" */ = {
+		D80ECB7C1BDEAA420055EF0A /* Build configuration list for PBXNativeTarget "zxcvbn_ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D80ECB7D1BDEAA420055EF0A /* Debug */,
